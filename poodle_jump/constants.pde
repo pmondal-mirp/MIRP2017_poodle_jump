@@ -1,4 +1,4 @@
-int displayWidth=600, displayHeight=1000;
+int displayWidth=700, displayHeight=700;
 // Game State
 // 0 -- Start Screen
 // 1 -- Game Running Screen
@@ -11,7 +11,7 @@ float PLAYER_VERT_VELOCITY = 35;
 float MAX_VERT_VELOCITY = 15;
 
 // Physical Constants
-float gravity = 1.0;
+float gravity = 0.5;
 float restitutionCoeff = 0.95;
 float dragCoeff = 0.03;
 

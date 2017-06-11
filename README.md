@@ -69,7 +69,7 @@ Most constants in this file are self-explanatory based on the name of the variab
 ## Step 2: Initialize the Platforms
 Write your code in the `initializePlatforms()`function to create an initial set of platforms according to the number of of platforms defined by `numPlatforms` among the constants. Each platform is denoted by two coordinates. You can store these in the `platforms[][2]` array.
 
-For example, if the fourth platform has coordinates `(30,60)`, then you can set `platforms[4][0] = 30`, and `platforms[4][1] = 60`.
+For example, if the fourth platform has coordinates `(30,60)`, then you can set `platforms[4][0] = 30`, and `platforms[4][0] = 60`.
 
 ### Random Generation
 You will find it useful to use the function `random()` in order to randomly generate the number of platforms needed. Specifically `random(low, high)` will generate a random number that is `>= low` and `< high`.
